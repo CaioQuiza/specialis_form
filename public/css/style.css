@@ -1,0 +1,103 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body
+{
+ height: 100%;
+}
+
+body
+{
+  background-color: white;
+  color: black;
+  font-family: Cambria;
+  font-size: 16px;
+}
+
+header
+{
+  background-color: rgb(48, 48, 184);
+  color: aliceblue;
+  font-family: Arial;
+  font-size: 25px;
+  margin-top: 15px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 35px;
+
+}
+
+.buttons
+{
+  align-items: center;  
+  padding-left: 425px;
+  padding-top: 50px;
+}
+
+#bt_scrum {
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 15px 15px;
+}
+
+#bt_scrum:hover {
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: rgb(3, 3, 3);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#bt_dev {
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 15px 15px;
+}
+
+#bt_dev:hover {
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: rgb(3, 3, 3);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#bt_backoffice {
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 15px 15px;
+}
+
+#bt_backoffice:hover {
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: rgb(3, 3, 3);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+footer {
+  text-size-adjust: 10px;
+  padding-left: 500px;
+  margin-top: 300px;
+}
