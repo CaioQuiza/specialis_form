@@ -1,21 +1,16 @@
-//Controle de slides da apresentação dos temas
-var indiceSlide = 1;
-mostraSlides(indiceSlide);
-
-//próximo/anterior
-
-function avancSlide(n){
-    mostraSlides(indiceSlide = n);
-}
-
-function mostraSlides(n){
-    var i;
-    var slides = document.getElementsByClassName("temaAtual");
-    if (n > slides.length) {indiceSlide = 1}
-    if (n < 1) {indiceSlide = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-        slides[indiceSlide-1].style.display = "block";
-    }
-    
-}
+document.addEventListener('DOMContentLoaded', function() {
+    var stream = document.querySelector('.temas');
+    var items = document.querySelectorAll('.apresentacao');
+    var prev = document.querySelector('.bot_ante');
+    var next = document.querySelector('.bot_prox');
+  
+    prev.addEventListener('click', function() {
+      stream.insertBefore(items[items.length - 1], items[0]);
+      items = document.querySelectorAll('.apresentacao');
+    });
+  
+    next.addEventListener('click', function() {
+      stream.appendChild(items[0]);
+      items = document.querySelectorAll('.apresentacao');
+    });
+  });
