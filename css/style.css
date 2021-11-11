@@ -588,6 +588,7 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 0%;
   margin-right: 0%;
+  margin-top: 60px;
 }
 
 #bt_powerbi {
@@ -603,6 +604,7 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 0%;
   margin-right: 0%;
+  margin-top: 60px;
 }
 
 /*Pagina scrum*/
@@ -619,7 +621,7 @@ footer {
 }
 
 #bt_method {
-  font-size: 13px;
+  font-size: 15px;
   border-radius: 5px;
   background-color: rgba(42, 149, 161, 0.732);
   color: black;
@@ -630,7 +632,7 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 11%;
   margin-right: 0%;
-  margin-top: 250px;
+  margin-top: 60px;
 }
 
 #bt_method:hover {
@@ -639,7 +641,7 @@ footer {
 }
 
 #bt_app {
-  font-size: 13px;
+  font-size: 15px;
   border-radius: 5px;
   background-color: rgba(42, 149, 161, 0.732);
   color: black;
@@ -650,7 +652,7 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 0%;
   margin-right: 0%;
-  margin-top: 250px;
+  margin-top: 60px;
 }
 
 #bt_app:hover {
