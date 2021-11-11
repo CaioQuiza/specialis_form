@@ -62,7 +62,6 @@ p {
   margin-top: 25px;
 }
 
-
 .imagens {
   display: flex;
   align-items: center;
@@ -252,7 +251,6 @@ p {
   margin-top: -31px;
   flex-direction: row;
   margin-right: 5%;
-
 }
 
 /*Botões tela inicial*/
@@ -320,6 +318,35 @@ p {
   color:rgb(0, 0, 0);
 }
 
+/*Botão de voltar páginas*/
+
+.button_voltar {
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#bt_backoff_back {
+  font-size: 13px;
+  border-radius: 5px;
+  background-color: rgba(42, 149, 161, 0.732);
+  color: black;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+#bt_backoff_back:hover{
+  background-color: rgb(231, 219, 47);
+  color:rgb(0, 0, 0);
+}
+
 aside{
   background-color: white;
 }
@@ -332,7 +359,52 @@ aside{
 footer {
   background-color: white;
   text-size-adjust: 10px;
-  padding-left: 350px;
-  margin-top: -220px;
+  padding-left: 40%;
+  margin-top: -200px;
 }
 
+/*botões página backoffice*/
+
+.buttons_bk {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Verdana;
+  font-weight: bold;
+  margin-top: 0px;
+  flex-direction: row;
+  margin-right: 5%;
+}
+
+
+#bt_excel{
+  font-size: 13px;
+  border-radius: 5px;
+  background-color: rgba(42, 149, 161, 0.732);
+  color: black;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+#bt_powerbi {
+  font-size: 13px;
+  border-radius: 5px;
+  background-color: rgba(42, 149, 161, 0.732);
+  color: black;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 0%;
+  margin-right: 0%;
+}
