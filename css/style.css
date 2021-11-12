@@ -695,3 +695,41 @@ footer {
 .temaspb4 {
   background-image: url(../images/Dash_Comparativo.jpg);
 }
+
+/*Imagens tema excel*/
+
+.temasex1 {
+  background-image: url(../images/excel_exercicio_1.png);
+}
+.temasex2 {
+  background-image: url(../images/excel_exercicio_2.png);  
+}
+.temasex3 {
+  background-image: url(../images/excel_exercicio_3.png);
+}
+.temasex4 {
+  background-image: url(../images/excel_exercicio_4.png);
+}
+
+.textoexcel {
+  justify-content: left;
+  background-color: white;
+}
+
+#texto1ex {
+  background-color: white;
+  text-align: left;
+}
+
+#texto2ex {
+  background-color: white;
+  text-align: left;
+}
+
+.video {
+  background-color: white;
+  margin-bottom: -10px;
+  display: flex;
+  justify-content: center;
+}
+
